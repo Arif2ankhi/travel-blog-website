@@ -35,9 +35,10 @@ h3{
         font-size: 18px;
         font-weight: normal;
         line-height: normal;
+        text-align: center;
     }
     
-
+/* navbar related styles */
 .span{
     color: rgb(255, 84, 0) 
 }
@@ -69,9 +70,29 @@ h3{
     cursor: pointer;
 }
 
-/* shared styles  */
+/* banner style  */
+
+.explore-container {
+    /* linear-gradien: (180deg, rgba(19, 19, 24, 0.8) 0%,  rgba(19, 19, 24, 0.8) 100%); */
+        
+        
+   background-image:
+    url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    padding: 7rem 0;background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+   
+}
+
+.travel-inputs{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
 
 
 
 
-/* navbar related styles */
